@@ -1,0 +1,9 @@
+# Windows scripts must keep CRLF line endings, or cmd and PowerShell can misread them.
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.py text eol=crlf
+*.spec text eol=crlf
+*.txt text eol=crlf
+*.ico binary
+*.png binary

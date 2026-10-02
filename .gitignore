@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Build output and tools (build.bat makes these)
+.build-venv/
+build/
+dist/
+
+# Local files that are not part of the project
+backup-*.zip
+*.log
